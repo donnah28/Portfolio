@@ -1,0 +1,41 @@
+.about {
+    text-align: center;
+  }
+
+  .about h4 {
+    font-size: 30px;
+  }
+
+ .myLife {
+    margin-left: 140px;
+    margin-right: 50px;
+    width: 55%;
+    float: left;
+ }
+  
+ .info {
+    display: inline-flex;
+ }
+
+.skills {
+    border-style: solid;
+    width: 200px;
+    height: 252px;
+    margin-left: 20px;
+    margin-top: -25px;
+    border-radius: 15%;
+}
+
+ .skills h5 {
+    font-size: 20px;
+    margin-top: 10px;
+ }
+
+ .skills li {
+    text-indent: -40px;
+    margin-top: 10px;
+ }
+ 
+ .skills ul {
+    margin-top: -10px;
+ }

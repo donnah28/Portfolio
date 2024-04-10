@@ -113,4 +113,9 @@ h2 {
   body {
     display: grid;
   }
+
+  .portfolio .portfolio2 {
+    display: grid;
+  }
+
  }

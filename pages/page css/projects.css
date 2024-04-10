@@ -112,10 +112,7 @@ h2 {
  @media (max-width:600px) {
   body {
     display: grid;
+      height: 100%;
+        width: 100%;
   }
-
-  .portfolio .portfolio2 {
-    display: grid;
-  }
-
  }

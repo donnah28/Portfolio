@@ -10,12 +10,14 @@ h2 {
 .portfolio {
     text-align: start;
     display: inline-flex;
+    margin-left: 120px;
 }
 
 .portfolio h3 {
     margin: 20px;
     font-size: 30px;
     margin-right: 50px;
+    color: rgb(174, 173, 173);
 }
 
 .text1 {
@@ -26,6 +28,7 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10%;
+    color: rgb(174, 173, 173);
 }
 
 .slideshow-container {
@@ -80,6 +83,7 @@ h2 {
     margin-top: 40px;
     text-align: start;
     display: inline-flex;
+    margin-left: 120px;
   }
 
  .game2 {
@@ -98,11 +102,13 @@ h2 {
     padding-right: 10px;
     padding-top: 30px;
     border-radius: 10%;
+    color: rgb(174, 173, 173);
  }
 
  .portfolio2 h3 {
   font-size: 30px;
   margin: 20px;
+  color: rgb(174, 173, 173);
  }
 
  .siteButton {
@@ -119,3 +125,20 @@ h2 {
   }
 
  }
+
+ @keyframes fadeIn {
+   0% {
+    opacity: 0;
+   }
+   100% {
+    opacity: 1;
+   }
+  }
+
+.portfolio {
+  animation: fadeIn 5s;
+}
+
+.portfolio2 {
+  animation: fadeIn 5s;
+}
